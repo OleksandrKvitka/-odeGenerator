@@ -165,8 +165,7 @@
 			this.textBox1.Name = "textBox1";
 			this.textBox1.Size = new System.Drawing.Size(889, 22);
 			this.textBox1.TabIndex = 24;
-			this.textBox1.Text = "0000000000 101 0001101 0011001 0010011 0111101 0100011 0110001 01010 1010000 1000" +
-    "010 1000010 1000010 1001110 1001110 101 0000000000";
+			this.textBox1.Text = "1011001001 101011001 101001011 101100101 110101001 101101001 1101101011 110100101 101011001 1001001011";
 			// 
 			// btnCreate
 			// 
@@ -187,7 +186,7 @@
 			this.txtBarcode.Name = "txtBarcode";
 			this.txtBarcode.Size = new System.Drawing.Size(226, 26);
 			this.txtBarcode.TabIndex = 13;
-			this.txtBarcode.Text = "01234563335";
+			this.txtBarcode.Text = "A12$54/9C";
 			this.txtBarcode.TextChanged += new System.EventHandler(this.txtBarcode_TextChanged);
 			// 
 			// lblHeader
@@ -211,7 +210,7 @@
 			this.title.Name = "title";
 			this.title.Size = new System.Drawing.Size(231, 39);
 			this.title.TabIndex = 28;
-			this.title.Text = "UPC-A Barcode";
+			this.title.Text = "Codabar Barcode";
 			// 
 			// encodeResulttext
 			// 
