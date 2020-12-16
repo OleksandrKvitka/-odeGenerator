@@ -165,7 +165,7 @@
 			this.textBox1.Name = "textBox1";
 			this.textBox1.Size = new System.Drawing.Size(889, 22);
 			this.textBox1.TabIndex = 24;
-			this.textBox1.Text = "1011001001 101011001 101001011 101100101 110101001 101101001 1101101011 110100101 101011001 1001001011";
+			this.textBox1.Text = "1011001001 101001011 101100101 110101001 101101001 1101101011 110100101 101001011 1001001011";
 			// 
 			// btnCreate
 			// 
@@ -186,7 +186,7 @@
 			this.txtBarcode.Name = "txtBarcode";
 			this.txtBarcode.Size = new System.Drawing.Size(226, 26);
 			this.txtBarcode.TabIndex = 13;
-			this.txtBarcode.Text = "A12$54/9C";
+			this.txtBarcode.Text = "A2$54/9C";
 			this.txtBarcode.TextChanged += new System.EventHandler(this.txtBarcode_TextChanged);
 			// 
 			// lblHeader

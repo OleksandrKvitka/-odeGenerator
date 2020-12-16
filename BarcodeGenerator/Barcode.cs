@@ -63,8 +63,7 @@ namespace BarcodeGenerator
         {
             if(barcode == null)
                 throw new Exception("Barcode is null.");
-
-            barcode.Save($"{path}\\barcode_{code}.png", ImageFormat.Png);
+            //barcode.Save($"{path}\\barcode_{code}.png", ImageFormat.Png);
         }
     }
 }
