@@ -189,7 +189,7 @@
                 throw new Exception("GENERATE_IMAGE-3: Invalide end charecter, Codabar ends with any one of this charecter 'A','B','C','D'");
             if (!new Regex("^[0-9\\-\\+\\$\\.\\:\\/]+$").IsMatch(Data.Substring(1, Data.Length - 2)))
                 throw new Exception("GENERATE_IMAGE-4: Codabar data contains invalid charecter");
-            Bitmap bitmap = new Bitmap((int)(float)((double)Width * Scale * 100.0), (int)(float)((double)Height * Scale * 100.0));
+            Bitmap bitmap = new Bitmap((int)(float)((double)Width * Scale * 300.0), (int)(float)((double)Height * Scale * 100.0));
             Graphics g = Graphics.FromImage((Image)bitmap);
             DrawBarcode(g, new Point(0, 0));
             g.Dispose();
